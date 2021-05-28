@@ -15,4 +15,4 @@ for i in range(1,len(s)):
 count = (count+1)//2
 result = count if count < total-count else total-count
 result = 0 if total==1 and count==0 else result
-print(result)
+print(result) 
