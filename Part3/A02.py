@@ -9,4 +9,4 @@ for i in range(1,len(s)):
   else:
     result *= int(s[i])
 
-print(result)
+print(result) 
