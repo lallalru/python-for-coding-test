@@ -1,0 +1,5 @@
+n= int(input())
+home = list(map(int, input().split()))
+home.sort()
+center = round(len(home)/2)
+print(home[center-1])
